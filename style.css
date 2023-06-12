@@ -1,6 +1,7 @@
 * {
     background-color: #1F2937;
     text-decoration: none;
+    
 }
 
 body {
@@ -37,8 +38,41 @@ body {
       text-align: right;
 }
 
-.headerMain {
+.headerMain h1{
+    font-weight: bolder;
+    margin: 5px;
+    width: 650px;
+    height: auto; 
+    font-size: 48px;
+    text-align: left;
+    color: #f9faf8;
+    text-align: left;
+}
+
+.headerMain p{
+    margin: 5px;
+    font-size: 18px;
+    color: #E5E7EB;
+    width: 650px;
+    height: auto;
+    text-align: left;
+    color: #f9faf8;
+    text-align: left;
+}
+.headerMain button{
+    margin: 0px;
     display: flex;
-    width: 50%;
-    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3382F6;
+    border: none;
+    color: white;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+
+
 }
