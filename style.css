@@ -2,7 +2,6 @@
 body {
     padding: 0;
     margin: 0;
-    text-align: center;
     font-family: 'Roboto', arial;
 }
 
@@ -18,8 +17,50 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    align-items: center;
 }
 
+.midContainer {
+    background-color: #e5e7eb;
+    display: flex;
+}
+
+.finalContainer {
+    margin: 100px;
+    margin-left: 28%;
+    margin-right: 28%;
+    flex-direction: row;
+    background-color: #3882F6;
+    display: flex;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    justify-content: space-between;
+}
+
+.finalContainer h3 {
+    margin-left: 100px;
+}
+.finalContainer p {
+    margin-left: 100px;
+}
+
+.finalContainer button{
+    margin: 25px;
+    margin-right: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3382F6;
+    color: white;
+    padding: 10px;
+    padding-left: 35px;
+    padding-right: 35px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: #f9faf8;
+}
 
 .navbar {
     display: flex;
@@ -31,6 +72,10 @@ body {
     padding-right: 250px;
     padding-bottom: 75px;
     flex-wrap: wrap;
+}
+
+.footerContainer {
+    flex: 1;
 }
 
 .navbar a{
@@ -104,3 +149,27 @@ body {
     flex-wrap: nowrap;
    
 }
+
+#finalPsize {
+    text-align: left;
+    margin: auto;
+    font-size: 36px;
+    font-family: italic;
+    width: 900px;
+}
+
+#quoteLeft {
+    text-align: right;
+    font-weight: bold;
+    margin-bottom: 100px;
+    margin-right: 475px;
+}
+
+#trademark{
+    text-align: center;
+    background-color: rgb(74, 89, 119);
+    padding: 35px;
+    color: white;
+
+}
+

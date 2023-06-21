@@ -1,66 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <title>FlexBox 1.0</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style.css">
-
-</head>
-<body>
-    <div class="container">
-        <nav class="navbar">
+   <head>
+      <title>FlexBox 1.0</title>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Document</title>
+      <link rel="stylesheet" href="./style.css">
+   </head>
+   <body>
+      <div class="container">
+         <nav class="navbar">
             <img class="logo" src="./resources/ledex.webp" alt="Italian Trulli"
-            height="75px"> 
+               height="75px"> 
             <a href="#">About</a>
             <a href="#">Home</a>
             <a href="#">Login</a>
-            
-        </nav>
-    </div>
-    <div class="container" style=" justify-content: center; column-gap: 50px;">
-        <nav class="header">
+         </nav>
+      </div>
+
+      <div class="container" style=" justify-content: center; column-gap: 50px;">
+         <nav class="header">
             <h1>Escape From Tarkov: A Quick Overview</h1>
             <p>Escape from Tarkov is a hardcore and realistic online first-person action RPG with MMO features developed by Russian Saint-Petersburg-based game developer, Battlestate Games. Set in the fictional Norvinsk region located on the frontier between Russia and Europe</p>
             <button>sign up</button>
-           
-        </nav>
-        <nav class="header">
+         </nav>
+         <nav class="header">
             <img style="height: auto; width: 250px;" src="./resources/ledex.webp" alt="Italian Trulli"> 
-        </nav>
-    </div>
-    <div class="container" style="background-color: white;">
-        <div class="main" >
-            <h1>Some Random Information</h1><br>
-        </div>
-    </div>
-    <div class="contentContainer">
-        <nav>
-        <!-- This exists as a spaver -->
-        </nav>
-        <nav>
+         </nav>
+      </div>
+      <div class="container" style="background-color: white;">
+         <div class="main" >
+            <h1>Some Random Information</h1>
+            <br>
+         </div>
+      </div>
+
+      <div class="contentContainer" style="margin-bottom: 75px; text-align: center;">
+         <nav>
+            <!-- This Nav exists as a spaver -->
+         </nav>
+         <nav>
             <a href="https://escapefromtarkov.fandom.com/wiki/Prapor"><img src=".//resources/Prapor_Portrait.webp"></a>
             <p>Prapor</p>
-        </nav>
-        <nav>
+         </nav>
+         <nav>
             <a href="https://escapefromtarkov.fandom.com/wiki/Skier"><img src=".//resources/Skier_Portrait.webp"></a>
             <p>Skier</p>
-        </nav>
-        <nav>
+         </nav>
+         <nav>
             <a href="https://escapefromtarkov.fandom.com/wiki/Therapist"><img src=".//resources/Therapist_Portrait.webp"></a>
             <p>Therapist</p>
-        </nav>
-        <nav>
+         </nav>
+         <nav>
             <a href="https://escapefromtarkov.fandom.com/wiki/Jaeger"><img src=".//resources/Jaeger_Portrait.webp"></a>
             <p>Jaeger</p>
+         </nav>
+         <nav>
+            <!-- This Nav exists as a spacer -->
+         </nav>
+      </div>
+
+      <div class="midContainer" style="flex-direction: column;">
+            <p id="finalPsize">
+                "There's the old saying that doing the same thing over and over again and expecting different results is the definition of insanity. There are few better places to apply that adage than the Escape From Tarkov. It's time to end it. It's time to restore peace and harmony to gamers and the significant others of the players. It's time to end the failed game." 
+            </p>
+            <p id="quoteLeft">- Jacob G. Hornberger abridged</p>
+      </div>
+      <div class="finalContainer">
+        <nav>
+            <h3>Enjoy EFT</h3>
+            <P>So do we! Sign up now for our newsletter. Publishes every 3rd Monday!</P>
         </nav>
         <nav>
-            <!-- This exists as a spacer -->
+            <button>sign up</button>
         </nav>
-    </div>
-
-</body>
+      </div>
+      <div class="footerContainer ">
+        <p id="trademark">Copyright ® The Odin Project</p>
+      </div>
+   </body>
 </html>
 
